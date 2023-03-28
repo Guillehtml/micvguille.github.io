@@ -1,0 +1,128 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV BEERLI GUILLERMO</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hide {display:none;}
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li>Perfil</li>
+            <li>Formacion</li>
+            <li>Contacto</li>
+        </ul>
+    </nav>
+</header> 
+
+<main>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Haga clic para ver fecha y hora.</button>
+    
+<p id="demo"></p> 
+   
+<p id="demo"> </p>
+<BUtton type="button" id="boton">Hacer clic</BUtton>
+
+<input type="button" onclick="mostrarOcultar('elemento1');" value="Mostrar/Ocultar">
+ 
+<div id="elemento1">
+<p> Soy una persona que se esfuerza en todo momento por garantizar la satisfacción del cliente. Cuento con amplia experiencia en ventas asesoramiento y un sólido conocimiento en el área del packaging y riesgos laborales. Tengo facilidad para trabajar tanto en equipo como de forma independiente, según las necesidades. Busco la oportunidad de demostrar mi valía en una empresa de futuro</p>
+</div>
+ 
+<script>
+
+function mostrarOcultar(idElemento)
+{
+    document.getElementById(idElemento).classList.toggle("hide");
+}
+</script>
+
+<script src="function.js"></script>
+
+</div>
+    <section id="hero">
+        <img src="fotomia.jpg" alt="">
+        <h1>Guillermo Manuel Beerli</h1>
+        <h2>Edad: 45 años</h2>
+        <h2>mail:guillermobeerli@yahoo.com.ar</h2>
+        <h2>tel: 26153294849</h2>
+        <h2>Lugar de Nacimiento: Mendoza, Argentina</h2>
+    </section>
+    <section id="formacion">
+        <h1>Formacion Profesional</h1>
+        <h2>Tecnico Quimico</h2>
+        <h2>Lic Higiene y Seguridad</h2>
+        <h2>Vendedor Tecnico</h2>
+        <h3>Manejo de herramientas Informaticas</h3>
+        <h3>Nivel de Ingles: Intermedio</h3>
+    </section>
+    <section id="projects">
+        <h2>Trabajos Realizados</h2>
+        <div class="projects-list"> 
+
+            
+            <div class="projects-detail">
+                <img src="Projects1.jpg" alt="">
+                <h3>FEDERACION PATRONAL</h3>
+                <p>Asesor de Higiene y Seguridad</p>
+                <p>Desde el año 2005 - 2010</p>
+                <p> Visitas y asesoramiento a contratos en Res 463/10 – Investigaciones de Puesto de Trabajo y Accidentes de Trabajos, PAPE, Empresas Alta Siniestralidad, Mediciones, único responsable Mendoza, San Juan, San Luis</p>
+                <a href=""></a>
+            </div>
+            <div class="projects-detail">
+                <img src="Projects3.jpg" width="290px" height="179,22">
+                <h3>KAIZEN CONSULTORA</h3>
+                <p>Asesor de Higiene y Seguridad</p>
+                <p>Desde el año 2010 - 2018</p>
+                <p> Visitas en empresas de La Rioja, San Juan, Catamarca y Mendoza (capacitaciones, procedimientos de trabajo, análisis de riesgos, legajos técnicos, investigación de accidentes, elaboración de estadísticas, etc.) </p>
+                <a href=""></a>
+            </div>
+            <div class="projects-detail">
+                <img src="Projects2.jpg" width="290px" height="179,22">
+                <h3>RODIN SRL</h3>
+                <p>Vendedor Tecnico</p>
+                <p>Desde el 2018 a la actualidad - </p>
+                <p> Vendedor Tecnico  Representante técnico de Salud Ocupacional. Asesoramiento en venta de elementos de protección personal, 3M, MSA, Vendedor de Cintas y Adhesivos especiales, H.B.FULLER Equipos de Medición de TESTO ARG.</p>
+                <a href=""></a>
+            </div>
+           </div>
+                  
+ </section>
+    
+       
+</section>
+    <section id="contacto">
+        <h1>CONTACTO</h1>
+        <form>
+            <div>
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+              <label for="mail">Correo electrónico:</label>
+              <input type="email" id="mail" name="user_email">
+            </div>
+            <div>
+              <label for="msg">Mensaje:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <div class="button">
+              <button type="submit">Envia tu mensaje</button>
+            </div>
+          </form>
+    </SEction>
+    
+       
+</main>
+<footer></footer>
+</body>
+</html>
